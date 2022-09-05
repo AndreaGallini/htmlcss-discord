@@ -175,9 +175,10 @@ li{
 .flexcontainer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     width: 80%;
     margin: 0 auto;
+    padding-top: 50px;
     
 
 }
@@ -196,6 +197,7 @@ hr{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
     
 }
 li h4{
