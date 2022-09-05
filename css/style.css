@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;    
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+/* logo,nav e tasto accedi */
+header{
+    width: 100%;
+    background-color: #255EE8;
+}
+.headercontainer{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.nav-flex{
+    list-style: none;
+    min-width: 500px;
+    display: flex;
+}    
+.nav-flex li{
+    flex-direction: row;
+    padding: 0 20px;
+    align-items: center;
+    text-decoration: none;
+}
+/* Fine logo, nav e tasto accedi */
+/* Bottoni*/
+.btn{
+   background-color: white;
+   padding: 10px 20px;
+   border-radius: 20px; 
+   color: #36393E;
+   text-decoration: none;
+}
+.grey{
+    background-color: #36393E;
+    color: white;
+}
+.lilla{
+    background-color: #7983F5;
+}
+/* Fine Bottoni */
+/* Jumbo */ 
+.jumbo-container{
+    width: 100%;
+    background-image: url('../img/jumbo.png');
+    height: 467px;
+    background-size: cover;
+}
+.inner-jumbo{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inner-jumbo p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.inner-jumbo h1{
+    color: white;
+    padding-top: 95px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.inner-jumbo a{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Fine Jumbo*/
+main{
+    width: 80%;
+    margin: 0 auto;
+}
