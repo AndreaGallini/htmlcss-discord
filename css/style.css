@@ -32,6 +32,10 @@ header{
     align-items: center;
     text-decoration: none;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 /* Fine logo, nav e tasto accedi */
 /* Bottoni*/
 .btn{
@@ -82,3 +86,45 @@ main{
     width: 80%;
     margin: 0 auto;
 }
+.left{
+  float: left;
+  width: 30%;
+}
+.right{
+    float: right;
+}
+.img-left{
+    width: 60%;
+    float: left;
+}
+.img-right{
+    width: 60%;
+    float:right;
+}
+
+.box-left{
+    margin-top: 50px;
+}
+.box-right{
+    padding-left: 100px;
+}
+
+.box-left section.left{
+    padding-top: 35px;
+    padding-left: 50px;
+    width: 30%;
+    float: left;
+}
+.box-right section.right{
+    padding-top: 35px;
+    padding-left: 50px;
+    width: 30%;
+    float: left;
+}
+section h2{
+    font-size: 50px;
+}
+section p{
+    padding-top: 20px;
+}
+
